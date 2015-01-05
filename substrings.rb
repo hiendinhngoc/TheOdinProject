@@ -8,18 +8,14 @@ def substrings(str, dictionary)
 		end
 	end
 
-	counts = Hash.subarr
-	=begin
+	counts = Hash.new 0
 	subarr.each do |word|
   		counts[word] += 1
 	end
 	return counts
-	=end
-
-
 end
 
 puts("Please enter your string:")
-str = "i will going down to go to the below below how i" #just for fun
+str = gets.chomp
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit","shit"]
 p (substrings(str, dictionary))
