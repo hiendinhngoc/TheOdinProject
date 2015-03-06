@@ -196,8 +196,8 @@ class Game
 				else
 					cpu_turn
 				end
-			else
-				put_line
+			else	
+			put_line
 				draw_game
 				put_line
 				puts ""

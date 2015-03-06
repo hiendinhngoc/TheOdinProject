@@ -7,8 +7,8 @@ def bubble_sort(arr)
 				swap = true
 			end
 		end
-		return arr
 	end
+	return arr
 end
 
 def bubble_sort_by(arr)
@@ -20,9 +20,10 @@ def bubble_sort_by(arr)
 				swap = true
 			end
 		end
-	    return arr
-	    p arr
+	    
 	end
+	return arr
+	    p arr
 end
 
 p bubble_sort([1,2,4,3,6,5])
