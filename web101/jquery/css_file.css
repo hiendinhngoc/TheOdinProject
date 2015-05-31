@@ -1,0 +1,22 @@
+.drawing{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(255,50,150);
+}
+
+h1{
+	text-align: center;
+}
+
+.left{
+	float: left;
+	width: 383px;
+	height: 960px;
+	background-color: rgb(200,200,200);
+}
+
