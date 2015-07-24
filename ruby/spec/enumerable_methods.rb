@@ -111,25 +111,35 @@ def mutiply_els(arr)
 end
 p "my_each"
 [1,2,7].my_each {|num| p "#{num}"}
+
 p "my_each_with_index"
 [1,2,7].my_each_with_index {|element, index| p "#{element}: #{index}"}
+
 p "my_select"
 p [1,2,7].my_select {|element| element.even?}
+
 p "my_all"
 p [1,2,7].my_all? {|element| element < 10}
+
 p "my_any"
 p [1,2,7].my_any? {|element| element > 10}
+
 p "my_none"
 p [1,2,7].my_none? {|element| element  == 10}
+
 p "my_count"
 p [1,2,7].my_count
 p [1,2,7].my_count(2)
+
 p "my_map"
 p [1,2,7].my_map {|i| i*i}
+
 p "my_inject"
 p [1,2,3].my_inject(2) {|result, element| result ** element}
+
 p "mutiply_els"
 p mutiply_els([1,2,3])
+
 p "13, 14"
 test = Proc.new{|z| z ** 3}
 p [1,2,3].my_map(&test)
