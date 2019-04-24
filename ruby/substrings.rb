@@ -2,8 +2,8 @@ def substrings(str, dictionary)
 	subarr = []
 	str.split.each_slice(1).map{|a|a.join ' '}.each do |element|
 		dictionary.length.times do |j|
-			if(element == dictionary[j])
-				subarr.push(element)
+			if(element.include? dictionary[j])
+				subarr.push(dictionary[j])
 			end
 		end
 	end
