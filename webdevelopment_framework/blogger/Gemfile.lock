@@ -76,7 +76,9 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.99.3)
-    mimemagic (0.3.3)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.11.0)
@@ -142,7 +144,7 @@ GEM
     tilt (1.4.1)
     turbolinks (2.5.3)
       coffee-rails
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (2.7.1)
       execjs (>= 0.3.0)
